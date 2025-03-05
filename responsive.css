@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header .contact {
+        height: 5px;
+    }
+    header .contact a {
+        display: none;
+    }
+    .aside {
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .container {
+        max-width: 768px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header .logo{
+        font-size: 44px;
+    }
+    header .contact {
+        height: 5px;
+        max-width: 768px;
+        width: 100%;
+    }
+    header .contact a {
+        display: none;
+    }
+    .title p {
+        font-size: 16px;
+        line-height: 1.2;
+        max-width: 768px;
+        width: 100%;
+    }
+    .slider-container {
+        max-width: 740px;
+        width: 100%;
+    }
+    .skills ul {
+        gap: 5px;
+    }
+    .skills ul li {
+        font-size: 16px;
+    }
+    .skills ul li img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .container {
+        max-width: 601px;
+    }
+    header .logo {
+        font-size: 32px;
+    }
+    
+}
